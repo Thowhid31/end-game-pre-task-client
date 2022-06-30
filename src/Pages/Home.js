@@ -1,21 +1,10 @@
 import React from 'react';
+import homebg from '../assets/list-green-stationery.jpg'
 
 const Home = () => {
     return (
         <div>
-            <h1 className='text-red-600 p-12'>Hello</h1>
-            <h1 className='text-red-600 p-12'>Hello</h1>
-            <h1 className='text-red-600 p-12'>Hello</h1>
-            <h1 className='text-red-600 p-12'>Hello</h1>
-            <h1 className='text-red-600 p-12'>Hello</h1>
-            <h1 className='text-red-600 p-12'>Hello</h1>
-            <h1 className='text-red-600 p-12'>Hello</h1>
-            <h1 className='text-red-600 p-12'>Hello</h1>
-            <h1 className='text-red-600 p-12'>Hello</h1>
-            <h1 className='text-red-600 p-12'>Hello</h1>
-            <h1 className='text-red-600 p-12'>Hello</h1>
-            <h1 className='text-red-600 p-12'>Hello</h1>
-            <h1 className='text-red-600 p-12'>Hello</h1>
+            <img src={homebg} alt="" />
         </div>
     );
 };
