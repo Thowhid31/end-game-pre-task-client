@@ -20,7 +20,7 @@ const Calender = () => {
                 selected={date}
                 onSelect={setDate}
                 />
-                <p className='font-bold'>Your Selected Date: {format(date, 'PP')}</p>
+                <p className='font-bold'>Today's Date: {format(date, 'PP')}</p>
                 </div>
             </div>
             

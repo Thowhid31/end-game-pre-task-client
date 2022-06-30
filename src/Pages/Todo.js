@@ -1,13 +1,11 @@
 import React from 'react';
+import CreateToDo from './CreateToDo';
 
 const Todo = () => {
     return (
         <div>
-            <h1>Hello todo</h1>
-            <h1>Hello todo</h1>
-            <h1>Hello todo</h1>
-            <h1>Hello todo</h1>
-            <h1>Hello todo</h1>
+            <CreateToDo/>
+            
         </div>
     );
 };
