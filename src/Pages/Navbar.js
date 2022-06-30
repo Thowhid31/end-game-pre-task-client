@@ -33,11 +33,7 @@ const Navbar = () => {
                     {menuItems}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <label tabIndex="1" for="dashboard-sideboard" className="btn btn-ghost lg:hidden">
-                    
-                </label>
-            </div>
+            
         </div>
     );
 };
